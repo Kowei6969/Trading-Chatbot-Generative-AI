@@ -1,0 +1,19 @@
+# Using open source embedding model to generate vector embedding
+# Uses transformer library 
+# Use hugging first platform to download the open source model
+# - With the model -> can generate vector embedding
+sentence-transformers==2.2.2 
+langchain
+flask # User Interface
+pypdf # Use pdf document
+# Inside EnV file will have our open credential as well as Pine Con credential
+# Pine con: Need to use 1 API key to authenticate with your account
+python-dotenv # Managing one EnV file
+pinecone[grpc] 
+langchain-pinecone
+langchain_community
+langchain_openai
+langchain_experimental
+-e .
+#pip install -r requirements.txt: auto install and setup as local package
+# Hence, can input anything under 'src' folder once setup.py is done
