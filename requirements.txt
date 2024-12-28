@@ -17,3 +17,11 @@ langchain_experimental
 -e .
 #pip install -r requirements.txt: auto install and setup as local package
 # Hence, can input anything under 'src' folder once setup.py is done
+# To add if install: "pip list"
+
+# To continue after this
+#git add. (Add to git hub account)
+#git commit -m "folder structure added"
+#git push origin main (push to my github project folder)
+
+#Basically copy all the command and execute in your system
