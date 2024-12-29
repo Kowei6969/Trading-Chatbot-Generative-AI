@@ -2,7 +2,7 @@
 # Uses transformer library 
 # Use hugging first platform to download the open source model
 # - With the model -> can generate vector embedding
-sentence-transformers==2.2.2 
+sentence-transformers==3.3.1
 langchain
 flask # User Interface
 pypdf # Use pdf document
